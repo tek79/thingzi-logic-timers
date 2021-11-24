@@ -1,3 +1,5 @@
+Forked from: https://www.npmjs.com/package/thingzi-logic-timers in order to fix a missing dependency.
+
 A collection of useful nodes to help with time based automation.  
 
 Despite the large number of timer nodes available for node red i never found one i was satisfied with.  Some were far too simple and others way too complicated.  In the end i made my own which are indended to be reliable & easy to use with a clean design.
