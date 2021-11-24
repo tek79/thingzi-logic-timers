@@ -1,4 +1,4 @@
-Forked from: https://www.npmjs.com/package/thingzi-logic-timers in order to fix a missing dependency.
+Forked from: https://www.npmjs.com/package/thingzi-logic-timers in order to replace the now deprecated 'request' dependency.
 
 A collection of useful nodes to help with time based automation.  
 
