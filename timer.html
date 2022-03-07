@@ -19,10 +19,10 @@
             ontimetod: {value: null},
             onpropertytype: {value: 'msg'},
             onproperty: {value: 'payload'},
-            onvaluetype: {value: 'string'},
+            onvaluetype: {value: 'str'},
             onvalue: {value: 'ON'},
             onoffset: {value: null, validate: function(v){ 
-                return (v >= -60 && v <= 60); 
+                return (v >= -180 && v <= 180); 
             }},
             onrandomoffset: {value: null},
 
@@ -32,10 +32,10 @@
             offtimetod: {value: null},
             offpropertytype: {value: 'msg'},
             offproperty: {value: 'payload'},
-            offvaluetype: {value: 'string'},
+            offvaluetype: {value: 'str'},
             offvalue: {value: 'OFF'},
             offoffset: {value: null, validate: function(v){ 
-                return (v >= -60 && v <= 60); 
+                return (v >= -180 && v <= 180); 
             }},
             offrandomoffset: {value: null},
 
